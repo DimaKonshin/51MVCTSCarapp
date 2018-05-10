@@ -7,14 +7,20 @@
   <div class="col-md-4">
     <div class="form-group">
       <label for="search">Find your car</label>
-      <input type="text" class="form-control" id="search" placeholder="name, model" />
+      <input
+             type="text"
+             class="form-control"
+             placeholder="name, model"
+             #search
+             (keyup)="SearchModel(search.value)"
+             />
 
     </div>
     <hr />
 
     <div class="pt-2">
       <ul class="list-group" id="ul1">
-        <li *ngFor="let item of getListOfCar(); let i = index "
+        <li *ngFor="let item of list; let i = index "
             class='list-group-item list-group-item-action r1'
             [ngClass] ="{'active': CheckIfThisCurrentCar(item.carid)}"           
             (click)="chooseCar(item.carid)">

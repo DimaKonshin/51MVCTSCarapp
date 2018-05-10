@@ -9,6 +9,7 @@ import { Car, ListOfCar } from "./Car";
 export class AppComponent {
 
   car: Car;
+  list: Array<Car>;
   showOrHidePhone: boolean = true;
   textForButtonPhone: string = "Show phone";
 
@@ -17,10 +18,11 @@ export class AppComponent {
     ListOfCar.Add(new Car("vin-2", "BMW", "M3", "1995", "Lena", "+7 928 123 45 60", "images/bmw.jpg"));
     ListOfCar.Add(new Car("vin-3", "Audi", "A4", "1995", "Max", "+7 925 123 40 62", "images/audi.jpg"));
     this.chooseCar("vin-1");
+    this.getListOfCar();
   }
 
   getListOfCar() {
-    return ListOfCar.GetListOfCar();
+    this.list = ListOfCar.GetListOfCar();
   }
 
   chooseCar(carid) {
@@ -57,5 +59,9 @@ export class AppComponent {
 
   clickByBuyBtn() {
 
+  }
+
+  SearchModel(search) {
+    this.list = ListOfCar.Search(search);
   }
 }
