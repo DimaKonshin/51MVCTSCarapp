@@ -86,9 +86,9 @@
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
     <Content Include="src\favicon.ico" />
-    <Content Include="src\images\audi.jpg" />
-    <Content Include="src\images\bmw.jpg" />
-    <Content Include="src\images\mers.png" />
+    <Content Include="images\audi.jpg" />
+    <Content Include="images\bmw.jpg" />
+    <Content Include="images\mers.png" />
     <Content Include="src\index.html" />
     <Content Include="src\styles.css" />
     <Content Include="Web.config" />
