@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Car, ListOfCar } from "./Car";
+import { Log, Logs } from "./Logs";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ export class AppComponent {
 
   car: Car;
   list: Array<Car>;
+  listOfLog: Array<Log>;
   showOrHidePhone: boolean = true;
   textForButtonPhone: string = "Show phone";
 
@@ -57,11 +59,25 @@ export class AppComponent {
     this.getShowOrHidePhone();
   }
 
-  clickByBuyBtn() {
-
-  }
-
   SearchModel(search) {
     this.list = ListOfCar.Search(search);
+  }
+
+  cancelModalWindow() {
+    var log: Log = new Log("cancel " + this.car.name + " - " + this.car.model, "exit", new Date());
+    Logs.Add(log);
+
+    this.listOfLog = Logs.GetListOfLogs();
+  }
+
+  clickByBuyBtnInModalWindow() {
+    var log: Log = new Log("buy " + this.car.name + " - " + this.car.model, "success", new Date());
+    Logs.Add(log);
+
+    this.listOfLog = Logs.GetListOfLogs();
+  }
+
+  checkLogType(type) {
+    return type == 'success' ? true : false;
   }
 }
