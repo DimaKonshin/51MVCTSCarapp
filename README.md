@@ -13,4 +13,4 @@ This application is in the TS language and uses the MVC
 * after that you will see new string in history which will show below main window 
 
 ## note:
-in the future I want to add a branch in angular
+add a branch with angular
