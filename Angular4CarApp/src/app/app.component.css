@@ -5,3 +5,7 @@
 .r2 {
   height: 36px;
 }
+
+.visible{
+  display:none;
+}

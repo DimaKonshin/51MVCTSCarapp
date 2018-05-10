@@ -9,6 +9,8 @@ import { Car, ListOfCar } from "./Car";
 export class AppComponent {
 
   car: Car;
+  showOrHidePhone: boolean = true;
+  textForButtonPhone: string = "Show phone";
 
   constructor() {
     ListOfCar.Add(new Car("vin-1", "Mersedes", "E320", "1995", "Dima", "+7 924 123 45 67", "images/mers.png"));
@@ -22,10 +24,38 @@ export class AppComponent {
   }
 
   chooseCar(carid) {
-      this.car = ListOfCar.GetCarByCarId(carid); 
+    this.car = ListOfCar.GetCarByCarId(carid);
+    this.HidePhone();
   }
 
   CheckIfThisCurrentCar(carid) {
     return this.car.carid == carid ? true : false;
+  }
+
+  ShowPhone() {
+    this.showOrHidePhone = false
+    this.textForButtonPhone = "Hide phone";
+  }
+
+  HidePhone() {
+    this.showOrHidePhone = true;
+    this.textForButtonPhone = "Show phone";
+  }
+
+  getShowOrHidePhone() {
+    if (this.showOrHidePhone == true) {
+      this.ShowPhone();
+    }
+    else {
+      this.HidePhone();
+    } 
+  }
+
+  clickByPhoneBtn() {
+    this.getShowOrHidePhone();
+  }
+
+  clickByBuyBtn() {
+
   }
 }

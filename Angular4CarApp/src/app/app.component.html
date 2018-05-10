@@ -40,11 +40,22 @@
           </ul>
 
           <div class="r2">
-            <p id="text3"></p>
+            <p
+               [ngClass]="{'visible': showOrHidePhone}">
+               {{car.phone}}
+            </p>
           </div>
           <div>
-            <button class="btn btn-outline-success mr-3" id="btn1">Show phone</button>
-            <button class="btn btn-primary" id="btn2">Buy</button>
+            <button
+                    class="btn btn-outline-success mr-3"
+                    (click)="clickByPhoneBtn()">
+                    {{textForButtonPhone}}
+            </button>
+            <button
+                    class="btn btn-primary"
+                    (click)="clickByBuyBtn()">
+                    Buy
+            </button>
           </div>
         </div>
       </div>
