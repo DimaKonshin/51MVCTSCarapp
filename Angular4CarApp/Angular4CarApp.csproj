@@ -75,33 +75,6 @@
     <Content Include="src\tsconfig.spec.json" />
     <Content Include="tsconfig.json" />
     <Content Include="README.md" />
-    <Content Include="Scripts\0unitapp\unitapp.js.map" />
-    <Content Include="Scripts\1UserRequest\UserRequest.js.map" />
-    <Content Include="Scripts\2Controllers\Controller.js.map" />
-    <Content Include="Scripts\3Models\Car.js.map" />
-    <Content Include="Scripts\3Models\Logs.js.map" />
-    <Content Include="Scripts\3Models\RSVP.js.map" />
-    <Content Include="Scripts\4Views\Views.js.map" />
-    <Content Include="Scripts\5AppStart\Program.js.map" />
-    <Content Include="Scripts\90Library\bootstrap.bundle.js.map" />
-    <Content Include="Scripts\90Library\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\90Library\bootstrap.js.map" />
-    <Content Include="Scripts\90Library\bootstrap.min.js.map" />
-    <Content Include="Scripts\90Library\esm\popper-utils.js.map" />
-    <Content Include="Scripts\90Library\esm\popper-utils.min.js.map" />
-    <Content Include="Scripts\90Library\esm\popper.js.map" />
-    <Content Include="Scripts\90Library\esm\popper.min.js.map" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.min.map" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\90Library\popper-utils.js.map" />
-    <Content Include="Scripts\90Library\popper-utils.min.js.map" />
-    <Content Include="Scripts\90Library\popper.js.map" />
-    <Content Include="Scripts\90Library\popper.min.js.map" />
-    <Content Include="Scripts\90Library\README.md" />
-    <Content Include="Scripts\90Library\umd\popper-utils.js.map" />
-    <Content Include="Scripts\90Library\umd\popper-utils.min.js.map" />
-    <Content Include="Scripts\90Library\umd\popper.js.map" />
-    <Content Include="Scripts\90Library\umd\popper.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,38 +83,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\0unitapp\unitapp.js" />
-    <Content Include="Scripts\1UserRequest\UserRequest.js" />
-    <Content Include="Scripts\2Controllers\Controller.js" />
-    <Content Include="Scripts\3Models\Car.js" />
-    <Content Include="Scripts\3Models\Logs.js" />
-    <Content Include="Scripts\3Models\RSVP.js" />
-    <Content Include="Scripts\4Views\Views.js" />
-    <Content Include="Scripts\5AppStart\Program.js" />
-    <Content Include="Scripts\90Library\bootstrap.bundle.js" />
-    <Content Include="Scripts\90Library\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\90Library\bootstrap.js" />
-    <Content Include="Scripts\90Library\bootstrap.min.js" />
-    <Content Include="Scripts\90Library\esm\popper-utils.js" />
-    <Content Include="Scripts\90Library\esm\popper-utils.min.js" />
-    <Content Include="Scripts\90Library\esm\popper.js" />
-    <Content Include="Scripts\90Library\esm\popper.min.js" />
-    <None Include="Scripts\90Library\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.js" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\90Library\jquery-3.3.1.slim.min.js" />
-    <Content Include="Scripts\90Library\jquery.validate.min.js" />
-    <Content Include="Scripts\90Library\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\90Library\popper-utils.js" />
-    <Content Include="Scripts\90Library\popper-utils.min.js" />
-    <Content Include="Scripts\90Library\popper.js" />
-    <Content Include="Scripts\90Library\popper.min.js" />
-    <Content Include="Scripts\90Library\umd\popper-utils.js" />
-    <Content Include="Scripts\90Library\umd\popper-utils.min.js" />
-    <Content Include="Scripts\90Library\umd\popper.js" />
-    <Content Include="Scripts\90Library\umd\popper.min.js" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
     <Content Include="src\favicon.ico" />
@@ -156,16 +97,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\%40types\jquery\index.d.ts" />
-    <TypeScriptCompile Include="Scripts\%40types\jquery\jquery.validation.d.ts" />
-    <TypeScriptCompile Include="Scripts\0unitapp\unitapp.ts" />
-    <TypeScriptCompile Include="Scripts\1UserRequest\UserRequest.ts" />
-    <TypeScriptCompile Include="Scripts\2Controllers\Controller.ts" />
-    <TypeScriptCompile Include="Scripts\3Models\Car.ts" />
-    <TypeScriptCompile Include="Scripts\3Models\Logs.ts" />
-    <TypeScriptCompile Include="Scripts\4Views\Views.ts" />
-    <TypeScriptCompile Include="Scripts\5AppStart\Program.ts" />
-    <TypeScriptCompile Include="Scripts\90Library\index.d.ts" />
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
