@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTS", "MVCTS\MVCTS.csproj", "{EDC166DB-68D6-48C5-844E-43641E3F4DDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular4CarApp", "Angular4CarApp\Angular4CarApp.csproj", "{A08E622D-412D-4CA1-A666-5CC350927171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDC166DB-68D6-48C5-844E-43641E3F4DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDC166DB-68D6-48C5-844E-43641E3F4DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDC166DB-68D6-48C5-844E-43641E3F4DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDC166DB-68D6-48C5-844E-43641E3F4DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08E622D-412D-4CA1-A666-5CC350927171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08E622D-412D-4CA1-A666-5CC350927171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08E622D-412D-4CA1-A666-5CC350927171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08E622D-412D-4CA1-A666-5CC350927171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
