@@ -1,4 +1,4 @@
-﻿class Car {
+export class Car {
     carid: string;
     name: string;
     model: string;
@@ -18,7 +18,7 @@
     }
 }
 
-class ListOfCar {
+export class ListOfCar {
     private static list: Array<Car> = new Array<Car>();
 
     static Add(car: Car): void {
@@ -26,17 +26,6 @@ class ListOfCar {
     }
 
     static GetCarByCarId(carid: string): Car {
-
-        //var index: number;
-
-        //for (var i = 0; i < this.list.length; i++) {
-        //    if (this.list[i].carid == carid) {
-        //        index = i;
-        //        break;
-        //    }
-        //}
-
-        //return this.list[index];
 
         var list: Array<Car> =  this.list.filter(car => {
             return car.carid.indexOf(carid) > -1;
